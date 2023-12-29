@@ -1,0 +1,35 @@
+\documentclass[11pt]{article}
+\usepackage[letterpaper, margin=1in]{geometry}
+\usepackage{titlesec}
+\usepackage{titling}
+\usepackage{hyperref}
+\usepackage{array}
+
+% 设置无页眉页脚
+\pagestyle{empty}
+
+% 设置标题格式
+\titleformat{\section}{\bfseries\Large}{\thesection}{1em}{}
+
+% 自定义命令以创建姓名和职位
+\newcommand{\makecontact}[2]{
+\noindent\begin{minipage}[t]{0.5\textwidth}
+{\Huge\bfseries #1}\\[0.5em]
+{\large Assistant Professor at Kyoto University}
+\end{minipage}%
+\hfill
+\begin{minipage}[t]{0.45\textwidth}
+\raggedleft
+Email: \href{mailto:#2}{#2} \\
+Website: \href{https://hermite.jp/}{hermite.jp/} \\
+(Last updated: October 2, 2023)
+\end{minipage}
+}
+
+\begin{document}
+
+\makecontact{Han Bao}{bao@i.kyoto-u.ac.jp}
+
+% 这里添加其他内容，如教育背景、工作经验等
+
+\end{document}

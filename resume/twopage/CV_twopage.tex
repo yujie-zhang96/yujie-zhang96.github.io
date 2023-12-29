@@ -1,0 +1,195 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Medium Length Professional CV
+% LaTeX Template
+% Version 2.0 (8/5/13)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Rishi Shah 
+%
+% Important note:
+% This template requires the resume.cls file to be in the same directory as the
+% .tex file. The resume.cls file provides the resume style used for structuring the
+% document.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass{resume} % Use the custom resume.cls style
+\usepackage{titlesec}
+\usepackage{titling}
+\usepackage{array}
+\usepackage{graphicx}
+\usepackage{enumitem}
+\usepackage{xcolor}
+\usepackage{adjustbox}
+\usepackage[colorlinks=true, urlcolor=blue, linkcolor=red, citecolor=green, anchorcolor=black]{hyperref}
+
+\usepackage{amsmath,mathrsfs,amssymb}
+\usepackage[left=0.6in,top=0.4in,right=0.6in,bottom=0.4in]{geometry} % Document margins
+\newcommand{\tab}[1]{\hspace{.2667\textwidth}\rlap{#1}}
+\newcommand{\itab}[1]{\hspace{0em}\rlap{#1}}
+% 定义自定义颜色
+\definecolor{myurlcolor}{RGB}{0,0,100}
+
+% 应用自定义颜色
+\hypersetup{
+    urlcolor=myurlcolor % 使用自定义颜色
+}
+
+% \name{Yu-Jie Zhang} % Your name
+% \address{Department of Complexity Science and Engineering, The University of Tokyo}
+% \address{Email:\ \texttt{yujie.zhang@ms.k.u-tokyo.ac.jp}}
+% \address{Website:\  \texttt{https://yujie-zhang96.github.io/}}
+
+
+% 设置无页眉页脚
+\pagestyle{empty}
+% 设置标题格式
+\titleformat{\section}{\bfseries\Large}{\thesection}{1em}{}
+
+% 自定义命令以创建姓名和职位
+\newcommand{\makecontact}[2]{
+\noindent\begin{minipage}[t]{0.5\textwidth}
+{\MakeUppercase\huge\bf #1}\\[0.5em]
+{\large The University of Tokyo}
+\end{minipage}%
+\hfill
+\begin{minipage}[t]{0.45\textwidth}
+\raggedleft
+\adjustbox{valign=c}{\includegraphics[height=1em]{email.png}} \href{mailto:#2}{#2} \\
+\adjustbox{valign=c}{\includegraphics[height=1em]{web.png}} \href{https://yujie-zhang96.github.io/}{{yujie-zhang96.github.io}} \\
+\end{minipage}
+}
+
+
+ % Your phone number and email
+
+\begin{document}
+\makecontact{Yu-Jie Zhang}{yujie.zhang@ms.k.u-tokyo.ac.jp}
+% \begin{rSection}{Contact Information}
+% % NOTE: Mind where the & separators and \\ breaks are in the following
+% %       table.
+% %
+% % ALSO: \rcollength is the width of the right column of the table
+% %       (adjust it to your liking; default is 1.85in).
+% %
+% % \newlength{\rcollength}\setlength{\rcollength}{1.3in}%
+% %
+% {Department of Computer Science and Technology} \hfill {email: zhangyj@lamda.nju.edu.cn}\\
+% Nanjing University, Xianlin Campus \hfill {or zhangyj.gm@gmail.com}\\
+% 163 Xianlin Avenue, Qixia District, Nanjing, China  \hfill {homepage: \href{http://www.lamda.nju.edu.cn/zhaop}{www.lamda.nju.edu.cn/zhangyj}}
+
+% \begin{tabular}[t]{@{}p{\textwidth-\rcollength}p{\rcollength}}
+% Nanjing University, Xianlin Campus Mailbox 603 & \textit{Phone:} +86-25-89680949 \\
+% 163 Xianlin Avenue, Qixia District  & \textit{E-mail:} \href{mailto:zlj@nju.edu.cn}{zlj@nju.edu.cn}\\
+% Nanjing 210023, China & \textit{WWW:} \href{http://cs.nju.edu.cn/zlj}{http://cs.nju.edu.cn/zlj}
+% \end{tabular}
+% \end{rSection}
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Education}
+{\bf The University of Tokyo}, Japan \hfill {October 2021 - Present}
+\\ Ph.D. candidate, Complexity Science and Engineering \hfill {Supervisor: Prof. \href{http://www.ms.k.u-tokyo.ac.jp/sugi/index.html}{Masashi Sugiyama}}\vspace{2mm}
+\\{\bf Nanjing University}, China \hfill { June 16, 2021} 
+\\ M.Sc., Computer Science and Technology \hfill {Supervisor: Prof. \href{http://cs.nju.edu.cn/zhouzh}{Zhi-Hua Zhou}}\vspace{2mm}
+\\{\bf Tongji University}, China \hfill{July 01, 2018}
+\\ B.Sc., Electronic Science and Technology \hfill {GPA: 4.91/5.00, ranking 1/32} 
+
+%Minor in Linguistics \smallskip \\
+%Member of Eta Kappa Nu \\
+%Member of Upsilon Pi Epsilon \\
+\end{rSection}
+
+\begin{rSection}{Research Interest}
+My research focuses on developing machine learning techniques to learn with non-stationary and imperfect data, particularly from the following perspectives:	
+\begin{itemize}
+	\item Online learning in non-stationary environments 
+	\item Classification with imperfect data 
+	\item Contextual bandit with nonlinear reward
+\end{itemize}
+\end{rSection}
+
+\begin{rSection}{Publications}
+\noindent \underline{\textbf{Preprints}}
+\begin{enumerate}[leftmargin=*]
+	\item S. Chen, \textbf{Y.-J. Zhang}, W.-W. Tu, P. Zhao, and L. Zhang. Optimistic Online Mirror Descent for Bridging Stochastic and Adversarial Online Convex Optimization. In submission to JMLR, minor revision. 
+	\item P. Zhao, \textbf{Y.-J. Zhang}, L. Zhang, and Z.-H. Zhou. Adaptivity and Non-stationarity: Problem-dependent Dynamic Regret for Online Convex Optimization. In submission to JMLR, minor revision.
+	\item W. Wang, T. Ishida, \textbf{Y.-J. Zhang}, G. Niu, and M. Sugiyama. Learning with Complementary Labels Revisited: A Consistent Approach via Negative-Unlabeled Learning.	
+\end{enumerate}
+\noindent \underline{\textbf{Conference Publications}}
+\begin{enumerate}[leftmargin=*]
+	\item \textbf{Y.-J. Zhang} and M. Sugiyama. Online (Multinomial) Logistic Bandit: Improved Regret and Constant Computation Cost. In {Advances in Neural Information Processing Systems 36} (\textbf{NeurIPS}), 2023. [\textbf{Spotlight}]
+	\item \textbf{Y.-J. Zhang}, Z.-Y. Zhang, P. Zhao, and M. Sugiyama. Adapting to Continuous Covariate Shift via Online Density Ratio Estimation. In {Advances in Neural Information Processing Systems 36} (\textbf{NeurIPS}), 2023.
+	\item X.-Q. Cai, \textbf{Y.-J. Zhang}, C.-K. Chiang and M. Sugiyama. Imitation Learning from Vague Feedback. In {Advances in Neural Information Processing Systems 36} (\textbf{NeurIPS}), 2023.
+	\item Y. Bai*, \textbf{Y.-J. Zhang*}, P. Zhao, M. Sugiyama, and Z.-H. Zhou. Adapting to Online Label Shift with Provable Guarantees. In {Advances in Neural Information Processing Systems 35} (\textbf{NeurIPS}), 2022.  (* equal contribution)
+	\item Z.-Y. Zhang, Y.-Y. Qian, \textbf{Y.-J. Zhang}, Y. Jiang, Z.-H. Zhou. Adaptive Learning for Weakly Labeled Streams. In {Proceedings of the 28th ACM SIGKDD Conference on Knowledge Discovery and Data Mining} (\textbf{KDD}), 2022.
+	\item \textbf{Y.-J. Zhang}, Y.-H. Yan, P. Zhao and Z.-H. Zhou. Towards Enabling Learnware to Handle Unseen Jobs. In {Proceedings of the 35th AAAI Conference on Artificial Intelligence} (\textbf{AAAI}), 2021.
+	\item P. Zhao, \textbf{Y.-J. Zhang} and Z.-H. Zhou. Exploratory Machine Learning with Unknown Unknowns. In {Proceedings of the 35th AAAI Conference on Artificial Intelligence} (\textbf{AAAI}), 2021.
+	\item \textbf{Y.-J. Zhang}, P. Zhao, L. Ma and Z.-H. Zhou. An Unbiased Risk Estimator for Learning with Augmented Classes. In {Advances in Neural Information Processing Systems 33} (\textbf{NeurIPS}), 2020.
+	\item P. Zhao, \textbf{Y.-J. Zhang}, L. Zhang and Z.-H. Zhou. Dynamic Regret of Convex and Smooth Functions. In {Advances in Neural Information Processing Systems 33} (\textbf{NeurIPS}), 2020.
+	\item \textbf{Y.-J. Zhang}, P. Zhao, and Z.-H. Zhou. A Simple Online Algorithm for Competing with Dynamic Comparators. In {Proceedings of the 36th Conference on Uncertainty in Artificial Intelligence} (\textbf{UAI}), 2020.
+\end{enumerate}
+\noindent \underline{\textbf{Journal Publications}}
+\begin{enumerate}[leftmargin=*]
+	\item P. Zhao, J.-W. Shan, \textbf{Y.-J. Zhang} and Z.-H. Zhou. Exploratory Machine Learning with Unknown Unknowns. Artificial Intelligence (\textbf{AIJ}), to appear, 2024.
+\end{enumerate}
+\end{rSection}
+
+%--------------------------------------------------------------------------------
+%    Projects And Seminars
+%-----------------------------------------------------------------------------------------------
+%----------------------------------------------------------------------------------------
+%	TECHNICAL STRENGTHS SECTION
+%----------------------------------------------------------------------------------------
+
+% \begin{rSection}{Technical Strengths}
+
+% \begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
+% Modeling and Analysis \ & AutoCad, Revit, StaadPro \\
+% Software \& Tools & MS Office, Latex \\
+% \end{tabular}
+
+% \end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+%	EXAMPLE SECTION
+%----------------------------------------------------------------------------------------
+
+% \begin{rSection}{Academic Achievements} 
+%  Runners up in B.G.Shirke Vidyarthi Competition for Innovative Project organized by Pune Construction Engineering Research Foundation in January 2018
+% \item Won First Prize in Model Making Competition Organized by Symbiosis Institute of Technology, Pune.
+% \end{rSection}
+
+\begin{rSection}{Awards \& Honors}
+\begin{itemize}[leftmargin=*]
+\item Top Reviewer for NeurIPS 2023, 2023
+\item Top Reviewer for UAI 2023, 2023
+\item Top Reviewer for NeurIPS 2022, 2022
+\item The University of Tokyo Fellowship, Tokyo, 2021
+\item Outstanding Master Dissertation Award by Jiangsu Computer Society, Nanjing, 2021
+\item Excellent Graduate of Nanjing University, Nanjing, 2021
+\item National Graduate Scholarship for Master Student, MOE of PRC, 2020
+\end{itemize}
+\end{rSection}
+
+\begin{rSection}{Academic Service}
+\begin{itemize}[leftmargin=*]
+\item Reviewer for Conference: NeurIPS (2021-2023), ICML (2022-2023), ICLR (2022-2024), AISTATS (2021-2024), UAI (2022-2023), AAAI (2021, 2024), IJCAI (2020-2023), ECAI (2020).
+\item Reviewer for Journal: Journal of Machine Learning Research (JMLR), IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI), Frontiers of Computer Science.
+\end{itemize}
+
+\end{rSection}
+
+
+\end{document}
