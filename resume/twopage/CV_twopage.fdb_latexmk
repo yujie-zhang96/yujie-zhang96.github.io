@@ -1,17 +1,18 @@
 # Fdb version 4
-["xdvipdfmx"] 1720002326.56377 "CV_twopage.xdv" "CV_twopage.pdf" "CV_twopage" 1720002326.96514 0
-  "CV_twopage.xdv" 1720002326 68584 af1b9ff8ec4ed7e1a9b894afc5bd7889 "xelatex"
+["xdvipdfmx"] 1720185305.66475 "CV_twopage.xdv" "CV_twopage.pdf" "CV_twopage" 1720185306.04358 0
+  "CV_twopage.xdv" 1720185305 68404 c776ce4b423def23ca51d63773e65212 "xelatex"
   (generated)
   "CV_twopage.pdf"
   (rewritten before read)
-["xelatex"] 1720002325.38904 "d:/Github_repo/yujie-zhang96.github.io/resume/twopage/CV_twopage.tex" "CV_twopage.xdv" "CV_twopage" 1720002326.95966 0
+["xelatex"] 1720185304.50511 "d:/Github_repo/yujie-zhang96.github.io/resume/twopage/CV_twopage.tex" "CV_twopage.xdv" "CV_twopage" 1720185306.03801 0
   "C:/Users/zhang/AppData/Local/MiKTeX/fonts/tfm/public/rsfs/rsfs10.tfm" 1655167392 688 37338d6ab346c2f1466b29e195316aa4 ""
   "C:/Users/zhang/AppData/Local/MiKTeX/fonts/tfm/public/rsfs/rsfs5.tfm" 1655167394 684 3a51bd4fd9600428d5264cf25f04bb9a ""
   "C:/Users/zhang/AppData/Local/MiKTeX/fonts/tfm/public/rsfs/rsfs7.tfm" 1655167393 692 1b6510779f0f05e9cbf03e0f6c8361e6 ""
   "C:/Users/zhang/AppData/Local/MiKTeX/miktex/data/le/xetex/xelatex.fmt" 1686533965 36436386 35a8cc3eef2b9a85fd0006f5436d3e3e ""
-  "CV_twopage.aux" 1720002326 557 3a5b80dfecb350ad9b68478e2f269b68 "xelatex"
-  "CV_twopage.out" 1720002326 0 d41d8cd98f00b204e9800998ecf8427e "xelatex"
-  "CV_twopage.tex" 1720002324 13295 fb17d6b8588a0111e2a908cd2e163414 ""
+  "CV_twopage.aux" 1720185305 557 3a5b80dfecb350ad9b68478e2f269b68 "xelatex"
+  "CV_twopage.out" 1720185305 0 d41d8cd98f00b204e9800998ecf8427e "xelatex"
+  "CV_twopage.tex" 1720185303 14467 01d04ea27a193061b257089e37490bc4 ""
+  "D:/MikTex/fonts/tfm/adobe/symbol/psyr.tfm" 1136739854 1408 5937f58aa508ea2cea4901c07d10f5fe ""
   "D:/MikTex/fonts/tfm/adobe/zapfding/pzdr.tfm" 1136739854 1528 7e12f4c0fcf5a072cebdcfbfc610f54c ""
   "D:/MikTex/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1233951848 1004 54797486969f23fa377b128694d548df ""
   "D:/MikTex/fonts/tfm/public/amsfonts/symbols/msam10.tfm" 1233951854 916 f87d7c45f9c908e672703b83b72241a3 ""
@@ -155,6 +156,9 @@
   "D:/MikTex/tex/latex/pgf/utilities/pgffor.sty" 1673775190 348 ee405e64380c11319f0e249fed57e6c5 ""
   "D:/MikTex/tex/latex/pgf/utilities/pgfkeys.sty" 1673775190 274 5ae372b7df79135d240456a1c6f2cf9a ""
   "D:/MikTex/tex/latex/pgf/utilities/pgfrcs.sty" 1673775190 325 f9f16d12354225b7dd52a3321f085955 ""
+  "D:/MikTex/tex/latex/psnfss/pifont.sty" 1585926771 2350 62e73848f29fd8cd37fb7974c7cf2221 ""
+  "D:/MikTex/tex/latex/psnfss/upsy.fd" 1585253778 153 2da0acd77cba348f34823f44cabf0058 ""
+  "D:/MikTex/tex/latex/psnfss/upzd.fd" 1585253778 153 b2a94082cb802f90d3daf6dd0c7188a0 ""
   "D:/MikTex/tex/latex/refcount/refcount.sty" 1576433952 9878 9e94e8fa600d95f9c7731bb21dfb67a4 ""
   "D:/MikTex/tex/latex/rerunfilecheck/rerunfilecheck.sty" 1657800696 9714 ba3194bd52c8499b3f1e3eb91d409670 ""
   "D:/MikTex/tex/latex/setspace/setspace.sty" 1670403145 22490 8cac309b79a4c53a4ffce4b1b07aead0 ""
@@ -187,7 +191,7 @@
   "D:/MikTex/tex/latex/varwidth/varwidth.sty" 1238469540 10894 d359a13923460b2a73d4312d613554c8 ""
   "D:/MikTex/tex/latex/xcolor/xcolor.sty" 1656236890 56148 51a9a8571c07b9921892ae11063ae853 ""
   "D:/MikTex/tex/latex/xkeyval/xkeyval.sty" 1656236919 4937 4ce600ce9bd4ec84d0250eb6892fcf4f ""
-  "d:/Github_repo/yujie-zhang96.github.io/resume/twopage/CV_twopage.tex" 1720002324 13295 fb17d6b8588a0111e2a908cd2e163414 ""
+  "d:/Github_repo/yujie-zhang96.github.io/resume/twopage/CV_twopage.tex" 1720185303 14467 01d04ea27a193061b257089e37490bc4 ""
   "email.png" 1701315173 9451 23089340a4f23505029f288fcdd3ff1a ""
   "resume.cls" 1701326370 4913 f47ebfcc1970f814e1c7bd582a689aba ""
   "web.png" 1701315721 18034 aca3bb6400b42a12de2849128daa1f3a ""

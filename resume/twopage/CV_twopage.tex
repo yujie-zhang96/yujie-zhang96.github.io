@@ -30,14 +30,15 @@
 \usepackage{adjustbox}
 \usepackage[most]{tcolorbox}
 \usepackage[colorlinks=true, urlcolor=blue, linkcolor=red, citecolor=green, anchorcolor=black]{hyperref}
-
+\usepackage{pifont}
 \usepackage{amsmath,mathrsfs,amssymb}
-\usepackage[left=0.6in,top=0.4in,right=0.6in,bottom=0.4in]{geometry} % Document margins
+\usepackage[left=1in,top=0.6in,right=1in,bottom=0.6in]{geometry} % Document margins
 \newcommand{\tab}[1]{\hspace{.2667\textwidth}\rlap{#1}}
 \newcommand{\itab}[1]{\hspace{0em}\rlap{#1}}
 % 定义自定义颜色
 \definecolor{myurlcolor}{RGB}{0,0,130}
 \definecolor{darkred}{RGB}{192,0,0}
+\linespread{1.2} % Increase line spacing by 1.5 times
 
 % 应用自定义颜色
 \hypersetup{
@@ -110,13 +111,22 @@
 %Member of Upsilon Pi Epsilon \\
 \end{rSection}
 
-\begin{rSection}{Research Interest}
-My research focuses on developing machine learning techniques to learn with the non-stationary and open world, particularly from the following perspectives:	
+\begin{rSection}{Research Experience}
+I am interested in exploring the theoretical foundations of machine learning models and developing theoretical sound methods with provable guarantees. My current research spans several areas:
 \begin{itemize}
-	\item \textbf{Non-stationary Online Learning and Decision-making}: Can we develop methods that can promptly adapt to non-stationary data, which appear sequentially and their distribution may shift over time?\vspace{-0.5mm} 
-	\begin{itemize}
-		\item \underline{\emph{Key words:}} \emph{online optimization}, \emph{bandits}, \emph{reinforcement learning}, \emph{dynamic regret bound}.
-	\end{itemize}
+	\item \textbf{Online Learning in Non-stationary Environments:} We develop online learning methods that adapt promptly to non-stationary environment with \emph{dynamic regret guarantees}.
+	\item \textbf{Sequential Decision Making with Non-Linear Rewards:} We study contextual bandits with \emph{non-linear feedback functions} and their applications to reinforcement learning theory.
+	\item \textbf{Learning with Imperfect data:} We develop reliable methods to learn with weak supervision and handle unknown classes in the test stage with \emph{excess risk guarantees}.
+\end{itemize}
+\end{rSection}
+% 	I am interested in building theoretical sound
+% Online Learning and Sequential Decision
+% My research focuses on developing machine learning techniques to learn with the non-stationary and open world, particularly from the following perspectives:	
+% \begin{itemize}
+% 	\item \textbf{Non-stationary Online Learning and Decision-making}: Can we develop methods that can promptly adapt to non-stationary data, which appear sequentially and their distribution may shift over time?\vspace{-0.5mm} 
+% 	\begin{itemize}
+% 		\item \underline{\emph{Key words:}} \emph{online optimization}, \emph{bandits}, \emph{reinforcement learning}, \emph{dynamic regret bound}.
+% 	\end{itemize}
 	% \vspace{-1mm}
 	% \begin{center}
 	% \begin{tcolorbox}[
@@ -137,11 +147,11 @@ My research focuses on developing machine learning techniques to learn with the 
 	% \end{tcolorbox}
 	% \end{center}
 	
-	\item \textbf{Learning with Imperfect Data}: Can we develop reliable methods that can learn from the imperfect data but still perform well on the test environments that contain unknown factors?
-	\begin{itemize}
-		\vspace{-0.5mm}
-		\item \underline{\emph{Key words:}} \emph{distribution shift}, \emph{weakly supervised learning}, \emph{unknown classes}, \emph{excess risk bound}. 
-	\end{itemize}
+	% \item \textbf{Learning with Imperfect Data}: Can we develop reliable methods that can learn from the imperfect data but still perform well on the test environments that contain unknown factors?
+	% \begin{itemize}
+	% 	\vspace{-0.5mm}
+	% 	\item \underline{\emph{Key words:}} \emph{distribution shift}, \emph{weakly supervised learning}, \emph{unknown classes}, \emph{excess risk bound}. 
+	% \end{itemize}
 	% \begin{center}
 	% \begin{tcolorbox}[
 	% enhanced,
@@ -161,21 +171,25 @@ My research focuses on developing machine learning techniques to learn with the 
 	% \end{tcolorbox}
 	% \end{center}
 
-\end{itemize}
-\end{rSection}
+
 
 \begin{rSection}{Publications}
 \noindent \underline{\textbf{Preprints}}
-\begin{enumerate}[leftmargin=*]
-\item Long-Fei Li, \textbf{Yu-Jie Zhang}, Peng Zhao, and Zhi-Hua Zhou. Provably Efficient Reinforcement Learning with Multinomial Logit Function Approximation. 
+
+\begin{enumerate}[leftmargin= 0.2in]
+	\renewcommand*{\labelenumi}{[\theenumi]}
+    \item Long-Fei Li, \textbf{Yu-Jie Zhang}, Peng Zhao, and Zhi-Hua Zhou. Provably Efficient Reinforcement Learning with Multinomial Logit Function Approximation. 
 \end{enumerate}
+
 \noindent \underline{\textbf{Conference Publications}}
-\begin{enumerate}[leftmargin=*]
+\begin{enumerate}[leftmargin=0.2in]
+	\renewcommand*{\labelenumi}{[\theenumi]}
+	\setcounter{enumi}{1}
 	\item Yu-Yang Qian, Peng Zhao, \textbf{Yu-Jie Zhang}, Masashi Sugiyama, Zhi-Hua Zhou. In: Proceedings of the 41st International Conference on Machine Learning (\textbf{ICML}), 2024.
 	\item Wei Wang, Takashi Ishida, \textbf{Yu-Jie Zhang}, Gang Niu, and Masashi Sugiyama. Learning with Complementary Labels Revisited: A Consistent Approach via Negative-Unlabeled Learning. In: Proceedings of the 41st International Conference on Machine Learning (\textbf{ICML}), 2024.		 
 	\item \textbf{Yu-Jie Zhang} and Masashi Sugiyama. Online (Multinomial) Logistic Bandit: Improved Regret and Constant Computation Cost. In {Advances in Neural Information Processing Systems 36} (\textbf{NeurIPS}), 2023. {\color{darkred}[\textbf{Spotlight}]}
 	\item \textbf{Yu-Jie Zhang}, Zhen-Yu Zhang, Peng Zhao, and Masashi Sugiyama. Adapting to Continuous Covariate Shift via Online Density Ratio Estimation. In {Advances in Neural Information Processing Systems 36} (\textbf{NeurIPS}), 2023.
-	\item Xin-Qqiang Cai, \textbf{Yu-Jie Zhang}, Chao-Kai Chiang and Masashi Sugiyama. Imitation Learning from Vague Feedback. In {Advances in Neural Information Processing Systems 36} (\textbf{NeurIPS}), 2023.
+	\item Xin-Qiang Cai, \textbf{Yu-Jie Zhang}, Chao-Kai Chiang and Masashi Sugiyama. Imitation Learning from Vague Feedback. In {Advances in Neural Information Processing Systems 36} (\textbf{NeurIPS}), 2023.
 	\item Yong Bai*, \textbf{Yu-Jie Zhang*}, Peng Zhao, Masashi Sugiyama, and Zhi-Hua Zhou. Adapting to Online Label Shift with Provable Guarantees. In {Advances in Neural Information Processing Systems 35} (\textbf{NeurIPS}), 2022.  (* equal contribution)
 	\item Zhen-Yu Zhang, Yu-Yang Qian, \textbf{Yu-Jie Zhang}, Yuan Jiang, Zhi-Hua Zhou. Adaptive Learning for Weakly Labeled Streams. In {Proceedings of the 28th ACM SIGKDD Conference on Knowledge Discovery and Data Mining} (\textbf{KDD}), 2022.
 	\item \textbf{Yu-Jie Zhang}, Yu-Hu Yan, Peng Zhao and Zhi-Hua Zhou. Towards Enabling Learnware to Handle Unseen Jobs. In {Proceedings of the 35th AAAI Conference on Artificial Intelligence} (\textbf{AAAI}), 2021.
@@ -185,7 +199,9 @@ My research focuses on developing machine learning techniques to learn with the 
 	\item \textbf{Yu-Jie Zhang}, Peng Zhao, and Zhi-Hua Zhou. A Simple Online Algorithm for Competing with Dynamic Comparators. In {Proceedings of the 36th Conference on Uncertainty in Artificial Intelligence} (\textbf{UAI}), 2020.
 \end{enumerate}
 \noindent \underline{\textbf{Journal Publications}}
-\begin{enumerate}[leftmargin=*]
+\begin{enumerate}[leftmargin=0.2in]
+	\setcounter{enumi}{13}
+	\renewcommand*{\labelenumi}{[\theenumi]}
 	\item Sijia Chen, \textbf{Yu-Jie Zhang}, Wei-Wei Tu, Peng Zhao, and Lijun Zhang. Optimistic Online Mirror Descent for Bridging Stochastic and Adversarial Online Convex Optimization. Journal of Machine Learning Research (\textbf{JMLR}), to appear, 2024.
 	\item Peng Zhao, \textbf{Yu-Jie Zhang}, Lijun Zhang, and Zhi-Hua Zhou. Adaptivity and Non-stationarity: Problem-dependent Dynamic Regret for Online Convex Optimization. Journal of Machine Learning Research (\textbf{JMLR}), 25(98):1−52, 2024.
 	\item Peng Zhao, Jia-Wei Shan, \textbf{Yu-Jie Zhang} and Zhi-Hua Zhou. Exploratory Machine Learning with Unknown Unknowns. Artificial Intelligence (\textbf{AIJ}), 327:104059, 2024.
@@ -222,9 +238,9 @@ My research focuses on developing machine learning techniques to learn with the 
 
 \begin{rSection}{Awards \& Honors}
 \begin{itemize}[leftmargin=*]
-\item Top Reviewer for NeurIPS 2023, 2023
-\item Top Reviewer for UAI 2023, 2023
-\item Top Reviewer for NeurIPS 2022, 2022
+\item Top Reviewer for NeurIPS, 2023
+\item Top Reviewer for UAI, 2023
+\item Top Reviewer for NeurIPS, 2022
 \item The University of Tokyo Fellowship, Tokyo, 2021
 \item Outstanding Master Dissertation Award by Jiangsu Computer Society, Nanjing, 2021
 \item Excellent Graduate of Nanjing University, Nanjing, 2021
@@ -234,8 +250,8 @@ My research focuses on developing machine learning techniques to learn with the 
 
 \begin{rSection}{Academic Service}
 \begin{itemize}[leftmargin=*]
-\item Reviewer for Conference: NeurIPS (2021-2024), ICML (2022-2024), ICLR (2022-2024), AISTATS (2021-2024), UAI (2022-2024), AAAI (2021, 2024), IJCAI (2020-2023), ECAI (2020).
-\item Reviewer for Journal: Journal of Machine Learning Research (JMLR), IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI), Frontiers of Computer Science.
+\item \textbf{Reviewer for Conference}: NeurIPS (2021-2024), ICML (2022-2024), ICLR (2022-2024), AISTATS (2021-2024), UAI (2022-2024), AAAI (2021, 2024), IJCAI (2020-2023), ECAI (2020).
+\item \textbf{Reviewer for Journal}: Journal of Machine Learning Research (JMLR), IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI), Frontiers of Computer Science.
 \end{itemize}
 
 \end{rSection}
