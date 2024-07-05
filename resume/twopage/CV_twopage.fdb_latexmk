@@ -1,17 +1,17 @@
 # Fdb version 4
-["xdvipdfmx"] 1720185305.66475 "CV_twopage.xdv" "CV_twopage.pdf" "CV_twopage" 1720185306.04358 0
-  "CV_twopage.xdv" 1720185305 68404 c776ce4b423def23ca51d63773e65212 "xelatex"
+["xdvipdfmx"] 1720186223.15845 "CV_twopage.xdv" "CV_twopage.pdf" "CV_twopage" 1720186223.67729 0
+  "CV_twopage.xdv" 1720186222 71524 c22f13bfa9b7a09b25c633f0eb52ec52 "xelatex"
   (generated)
   "CV_twopage.pdf"
   (rewritten before read)
-["xelatex"] 1720185304.50511 "d:/Github_repo/yujie-zhang96.github.io/resume/twopage/CV_twopage.tex" "CV_twopage.xdv" "CV_twopage" 1720185306.03801 0
+["xelatex"] 1720186221.91634 "d:/Github_repo/yujie-zhang96.github.io/resume/twopage/CV_twopage.tex" "CV_twopage.xdv" "CV_twopage" 1720186223.67191 0
   "C:/Users/zhang/AppData/Local/MiKTeX/fonts/tfm/public/rsfs/rsfs10.tfm" 1655167392 688 37338d6ab346c2f1466b29e195316aa4 ""
   "C:/Users/zhang/AppData/Local/MiKTeX/fonts/tfm/public/rsfs/rsfs5.tfm" 1655167394 684 3a51bd4fd9600428d5264cf25f04bb9a ""
   "C:/Users/zhang/AppData/Local/MiKTeX/fonts/tfm/public/rsfs/rsfs7.tfm" 1655167393 692 1b6510779f0f05e9cbf03e0f6c8361e6 ""
   "C:/Users/zhang/AppData/Local/MiKTeX/miktex/data/le/xetex/xelatex.fmt" 1686533965 36436386 35a8cc3eef2b9a85fd0006f5436d3e3e ""
-  "CV_twopage.aux" 1720185305 557 3a5b80dfecb350ad9b68478e2f269b68 "xelatex"
-  "CV_twopage.out" 1720185305 0 d41d8cd98f00b204e9800998ecf8427e "xelatex"
-  "CV_twopage.tex" 1720185303 14467 01d04ea27a193061b257089e37490bc4 ""
+  "CV_twopage.aux" 1720186222 557 3a5b80dfecb350ad9b68478e2f269b68 "xelatex"
+  "CV_twopage.out" 1720186222 0 d41d8cd98f00b204e9800998ecf8427e "xelatex"
+  "CV_twopage.tex" 1720186221 14808 70cb30da932e96318cadf7be5f624ff7 ""
   "D:/MikTex/fonts/tfm/adobe/symbol/psyr.tfm" 1136739854 1408 5937f58aa508ea2cea4901c07d10f5fe ""
   "D:/MikTex/fonts/tfm/adobe/zapfding/pzdr.tfm" 1136739854 1528 7e12f4c0fcf5a072cebdcfbfc610f54c ""
   "D:/MikTex/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1233951848 1004 54797486969f23fa377b128694d548df ""
@@ -191,7 +191,7 @@
   "D:/MikTex/tex/latex/varwidth/varwidth.sty" 1238469540 10894 d359a13923460b2a73d4312d613554c8 ""
   "D:/MikTex/tex/latex/xcolor/xcolor.sty" 1656236890 56148 51a9a8571c07b9921892ae11063ae853 ""
   "D:/MikTex/tex/latex/xkeyval/xkeyval.sty" 1656236919 4937 4ce600ce9bd4ec84d0250eb6892fcf4f ""
-  "d:/Github_repo/yujie-zhang96.github.io/resume/twopage/CV_twopage.tex" 1720185303 14467 01d04ea27a193061b257089e37490bc4 ""
+  "d:/Github_repo/yujie-zhang96.github.io/resume/twopage/CV_twopage.tex" 1720186221 14808 70cb30da932e96318cadf7be5f624ff7 ""
   "email.png" 1701315173 9451 23089340a4f23505029f288fcdd3ff1a ""
   "resume.cls" 1701326370 4913 f47ebfcc1970f814e1c7bd582a689aba ""
   "web.png" 1701315721 18034 aca3bb6400b42a12de2849128daa1f3a ""
