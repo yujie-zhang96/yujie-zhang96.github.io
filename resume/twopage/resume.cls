@@ -27,7 +27,7 @@
 \usepackage{ifthen} % Required for ifthenelse statements
 \usepackage{xcolor}
 \definecolor{myred}{cmyk}{0.27,1, 0.93,0.28}
-
+\definecolor{myblue}{RGB}{25,106,171}
 
 \pagestyle{empty} % Suppress page numbers
 
