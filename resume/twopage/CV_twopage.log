@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (MiKTeX 23.5) (preloaded format=xelatex 2023.6.12)  18 JUL 2024 21:04
+This is XeTeX, Version 3.141592653-2.6-0.999995 (MiKTeX 23.5) (preloaded format=xelatex 2023.6.12)  25 NOV 2024 14:17
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -812,34 +812,34 @@ File: l3backend-xetex.def 2023-04-19 L3 backend support: XeTeX
 ) (CV_twopage.aux)
 \openout1 = `CV_twopage.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 77.
-LaTeX Font Info:    ... okay on input line 77.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 77.
-LaTeX Font Info:    ... okay on input line 77.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 77.
-LaTeX Font Info:    ... okay on input line 77.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 77.
-LaTeX Font Info:    ... okay on input line 77.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 77.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 76.
+LaTeX Font Info:    ... okay on input line 76.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 76.
+LaTeX Font Info:    ... okay on input line 76.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 76.
+LaTeX Font Info:    ... okay on input line 76.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 76.
+LaTeX Font Info:    ... okay on input line 76.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 76.
 LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 7
-7.
+6.
 
 (D:\MikTex\tex/latex/base\ts1cmr.fd
 File: ts1cmr.fd 2022/07/10 v2.5l Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 77.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 77.
-LaTeX Font Info:    ... okay on input line 77.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 77.
-LaTeX Font Info:    ... okay on input line 77.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 77.
-LaTeX Font Info:    ... okay on input line 77.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 77.
-LaTeX Font Info:    ... okay on input line 77.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 77.
-LaTeX Font Info:    ... okay on input line 77.
+LaTeX Font Info:    ... okay on input line 76.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 76.
+LaTeX Font Info:    ... okay on input line 76.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 76.
+LaTeX Font Info:    ... okay on input line 76.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 76.
+LaTeX Font Info:    ... okay on input line 76.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 76.
+LaTeX Font Info:    ... okay on input line 76.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 76.
+LaTeX Font Info:    ... okay on input line 76.
 \c@lstlisting=\count332
-Package hyperref Info: Link coloring ON on input line 77.
+Package hyperref Info: Link coloring ON on input line 76.
  (CV_twopage.out) (CV_twopage.out)
 \@outlinefile=\write4
 \openout4 = `CV_twopage.out'.
@@ -881,17 +881,17 @@ Package hyperref Info: Link coloring ON on input line 77.
 
 File: email.png Graphic file (type bmp)
 <email.png>
-LaTeX Font Info:    Trying to load font information for U+rsfs on input line 78
+LaTeX Font Info:    Trying to load font information for U+rsfs on input line 77
 .
 (D:\MikTex\tex/latex/jknappen\ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 )
-LaTeX Font Info:    Trying to load font information for U+msa on input line 78.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 77.
 
  (D:\MikTex\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 78.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 77.
 
 
 (D:\MikTex\tex/latex/amsfonts\umsb.fd
@@ -900,13 +900,13 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 File: web.png Graphic file (type bmp)
 <web.png>
 
-Underfull \hbox (badness 10000) in paragraph at lines 77--91
+Underfull \hbox (badness 10000) in paragraph at lines 76--81
 
  []
 
 [1
 
-] [2] (CV_twopage.aux)
+] [2] [3] (CV_twopage.aux)
 Package rerunfilecheck Info: File `CV_twopage.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
@@ -917,6 +917,6 @@ Here is how much of TeX's memory you used:
  48515 multiletter control sequences out of 15000+600000
  515579 words of font info for 52 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 90i,6n,99p,1253b,526s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 90i,6n,99p,1253b,522s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on CV_twopage.pdf (2 pages).
+Output written on CV_twopage.pdf (3 pages).
