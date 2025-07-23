@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2025.2.24)  23 JUL 2025 09:21
+This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2025.2.24)  23 JUL 2025 10:06
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -746,9 +746,19 @@ Underfull \hbox (badness 10000) in paragraph at lines 76--81
 
  []
 
+
+Overfull \hbox (6.72873pt too wide) in paragraph at lines 131--132
+[]\TU/lmr/m/n/10 Yuting Tang, Yivan Zhang, Johannes Ackermann, $[]$, Soichiro Nishimori, Masashi Sugiyama.
+ []
+
 [1
 
-] [2] [3] (./CV_twopage.aux)
+]
+Overfull \hbox (3.79976pt too wide) in paragraph at lines 162--163
+[]\TU/lmr/m/n/10 Peng Zhao, $[]$, Lijun Zhang, and Zhi-Hua Zhou. Adaptivity and Non-stationarity: Problem-
+ []
+
+[2] [3] (./CV_twopage.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
@@ -757,12 +767,12 @@ Package rerunfilecheck Info: File `CV_twopage.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 28624 strings out of 474773
- 576101 string characters out of 5757724
- 1941839 words of memory out of 5000000
- 50284 multiletter control sequences out of 15000+600000
- 561361 words of font info for 56 fonts, out of 8000000 for 9000
+ 28626 strings out of 474773
+ 576151 string characters out of 5757724
+ 1940839 words of memory out of 5000000
+ 50285 multiletter control sequences out of 15000+600000
+ 561369 words of font info for 57 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 91i,6n,99p,1195b,527s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 91i,6n,99p,1195b,525s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
 Output written on CV_twopage.pdf (3 pages).
