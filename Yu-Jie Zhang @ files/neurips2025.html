@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>NeurIPS 2025 – My Sessions</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <style>
+    body {
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      margin: 0;
+      background: #f7f7f7;
+      color: #222;
+    }
+    header {
+      background: #1e3a8a;
+      color: #fff;
+      padding: 12px 16px;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 1.1rem;
+    }
+    header p {
+      margin: 4px 0 0;
+      font-size: 0.85rem;
+      opacity: 0.9;
+    }
+    .container {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 12px 10px 40px;
+    }
+    .session-tabs {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+      margin-bottom: 16px;
+      position: sticky;
+      top: 0;
+      background: #f7f7f7;
+      padding: 8px 4px 10px;
+      z-index: 5;
+      border-bottom: 1px solid #ddd;
+    }
+    .session-tab {
+      border: 1px solid #cbd5e1;
+      border-radius: 999px;
+      padding: 6px 10px;
+      font-size: 0.8rem;
+      background: #e5e7eb;
+      cursor: pointer;
+      white-space: nowrap;
+    }
+    .session-tab.active {
+      background: #1e3a8a;
+      color: #fff;
+      border-color: #1e3a8a;
+      font-weight: 600;
+    }
+    .session {
+      display: none;
+      background: #fff;
+      border-radius: 10px;
+      border: 1px solid #e5e7eb;
+      padding: 12px 14px;
+      margin-bottom: 16px;
+    }
+    .session.active {
+      display: block;
+    }
+    .session-header {
+      margin-bottom: 8px;
+      border-bottom: 1px solid #e5e7eb;
+      padding-bottom: 6px;
+    }
+    .session-header h2 {
+      margin: 0;
+      font-size: 1rem;
+    }
+    .session-header p {
+      margin: 3px 0 0;
+      font-size: 0.85rem;
+      color: #555;
+    }
+    ul.paper-list {
+      list-style: none;
+      padding-left: 0;
+      margin: 10px 0 0;
+    }
+    ul.paper-list li {
+      margin: 10px 0;
+      padding: 8px 10px;
+      border-radius: 6px;
+      background: #f9fafb;
+      border: 1px solid #e5e7eb;
+    }
+    .paper-title {
+      font-weight: 600;
+      font-size: 0.94rem;
+      margin-bottom: 2px;
+    }
+    .paper-authors {
+      font-size: 0.86rem;
+      color: #444;
+    }
+    .paper-meta {
+      font-size: 0.78rem;
+      color: #666;
+      margin-top: 2px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>NeurIPS 2025 – My Sessions</h1>
+    <p>Tap a session below to see only that session’s papers.</p>
+  </header>
+
+  <div class="container">
+    <!-- Session Tabs -->
+    <div class="session-tabs">
+      <button class="session-tab active" data-target="we-oral">
+        We · Oral 1C
+      </button>
+      <button class="session-tab" data-target="we-p1">
+        We · Poster 1
+      </button>
+      <button class="session-tab" data-target="we-p2">
+        We · Poster 2
+      </button>
+      <button class="session-tab" data-target="th-p3">
+        Th · Poster 3
+      </button>
+      <button class="session-tab" data-target="th-p4">
+        Th · Poster 4
+      </button>
+      <button class="session-tab" data-target="fr-p5">
+        Fr · Poster 5
+      </button>
+      <button class="session-tab" data-target="fr-p6">
+        Fr · Poster 6
+      </button>
+    </div>
+
+    <!-- WED – Oral 1C -->
+    <section class="session active" id="we-oral">
+      <div class="session-header">
+        <h2>Wednesday, Dec 3 – Oral 1C Theory 1</h2>
+        <p>10:40 PST</p>
+      </div>
+      <ul class="paper-list">
+        <li>
+          <div class="paper-title">Does Stochastic Gradient really succeed for bandits?</div>
+          <div class="paper-authors">
+            Dorian Baudry, Emmeran Johnson, Simon Vary, Ciara Pike-Burke, Patrick Rebeschini
+          </div>
+          <div class="paper-meta">We, Dec 3, 10:40 PST — Oral 1C Theory 1</div>
+        </li>
+      </ul>
+    </section>
+
+    <!-- WED – Poster 1 -->
+    <section class="session" id="we-p1">
+      <div class="session-header">
+        <h2>Wednesday, Dec 3 – Poster Session 1</h2>
+        <p>11:00 PST · San Diego Poster Session 1</p>
+      </div>
+      <ul class="paper-list">
+        <li>
+          <div class="paper-title">New Perspectives on the Polyak Stepsize: Surrogate Functions and Negative Results</div>
+          <div class="paper-authors">Francesco Orabona, Ryan D'Orazio</div>
+          <div class="paper-meta">We, Dec 3, 11:00 PST — Poster Session 1</div>
+        </li>
+        <li>
+          <div class="paper-title">STAR-Bets: Sequential TArget-Recalculating Bets for Tighter Confidence Intervals</div>
+          <div class="paper-authors">Vaclav Voracek, Francesco Orabona</div>
+          <div class="paper-meta">We, Dec 3, 11:00 PST — Poster Session 1</div>
+        </li>
+        <li>
+          <div class="paper-title">The Adaptive Complexity of Minimizing Relative Fisher Information</div>
+          <div class="paper-authors">Huanjian Zhou, Masashi Sugiyama</div>
+          <div class="paper-meta">We, Dec 3, 11:00 PST — Poster Session 1</div>
+        </li>
+        <li>
+          <div class="paper-title">Sharp Gap-Dependent Variance-Aware Regret Bounds for Tabular MDPs</div>
+          <div class="paper-authors">Shulun Chen, Runlong Zhou, Zihan Zhang, Maryam Fazel, Simon Du</div>
+          <div class="paper-meta">We, Dec 3, 11:00 PST — Poster Session 1</div>
+        </li>
+        <li>
+          <div class="paper-title">Deployment Efficient Reward-Free Exploration with Linear Function Approximation</div>
+          <div class="paper-authors">Zihan Zhang, Yuxin Chen, Jason Lee, Simon Du, Lin Yang, Ruosong Wang</div>
+          <div class="paper-meta">We, Dec 3, 11:00 PST — Poster Session 1</div>
+        </li>
+        <li>
+          <div class="paper-title">Affine-Invariant Global Non-Asymptotic Convergence Analysis of BFGS under Self-Concordance</div>
+          <div class="paper-authors">Qiujiang Jin, Aryan Mokhtari</div>
+          <div class="paper-meta">We, Dec 3, 11:00 PST — Poster Session 1</div>
+        </li>
+        <li>
+          <div class="paper-title">On the Complexity of Finding Stationary Points in Nonconvex Simple Bilevel Optimization</div>
+          <div class="paper-authors">Jincheng Cao, Ruichen Jiang, Erfan Yazdandoost Hamedani, Aryan Mokhtari</div>
+          <div class="paper-meta">We, Dec 3, 11:00 PST — Poster Session 1</div>
+        </li>
+        <li>
+          <div class="paper-title">Does Stochastic Gradient really succeed for bandits?</div>
+          <div class="paper-authors">
+            Dorian Baudry, Emmeran Johnson, Simon Vary, Ciara Pike-Burke, Patrick Rebeschini
+          </div>
+          <div class="paper-meta">We, Dec 3, 11:00 PST — Poster Session 1 (also Oral at 10:40)</div>
+        </li>
+        <li>
+          <div class="paper-title">Efficient and Near-Optimal Algorithm for Contextual Dueling Bandits with Offline Regression Oracles</div>
+          <div class="paper-authors">Aadirupa Saha, Robert Schapire</div>
+          <div class="paper-meta">We, Dec 3, 11:00 PST — Poster Session 1</div>
+        </li>
+        <li>
+          <div class="paper-title">Exploration via Feature Perturbation in Contextual Bandits</div>
+          <div class="paper-authors">Seouh-won Yi, Min-hwan Oh</div>
+          <div class="paper-meta">We, Dec 3, 11:00 PST — Poster Session 1</div>
+        </li>
+        <li>
+          <div class="paper-title">Feel-Good Thompson Sampling for Contextual Bandits: a Markov Chain Monte Carlo Showdown</div>
+          <div class="paper-authors">Emile Anand, Sarah Liaw</div>
+          <div class="paper-meta">We, Dec 3, 11:00 PST — Poster Session 1</div>
+        </li>
+        <li>
+          <div class="paper-title">SOMBRL: Scalable and Optimistic Model-Based RL</div>
+          <div class="paper-authors">Bhavya, Lenart Treven, Carmelo Sferrazza, Florian Dorfler, Pieter Abbeel, Andreas Krause</div>
+          <div class="paper-meta">We, Dec 3, 11:00 PST — Poster Session 1</div>
+        </li>
+        <li>
+          <div class="paper-title">Flow Density Control: Generative Optimization Beyond Entropy-Regularized Fine-Tuning</div>
+          <div class="paper-authors">
+            Riccardo De Santi, Marin Vlastelica, Ya-Ping Hsieh, Zebang Shen, Niao He, Andreas Krause
+          </div>
+          <div class="paper-meta">We, Dec 3, 11:00 PST — Poster Session 1</div>
+        </li>
+      </ul>
+    </section>
+
+    <!-- WED – Poster 2 -->
+    <section class="session" id="we-p2">
+      <div class="session-header">
+        <h2>Wednesday, Dec 3 – Poster Session 2</h2>
+        <p>16:30 PST · San Diego Poster Session 2</p>
+      </div>
+      <ul class="paper-list">
+        <li>
+          <div class="paper-title">Improved Bounds for Swap Multicalibration and Swap Omniprediction</div>
+          <div class="paper-authors">Haipeng Luo, Spandan Senapati, Vatsal Sharan</div>
+          <div class="paper-meta">We, Dec 3, 16:30 PST — Poster Session 2</div>
+        </li>
+        <li>
+          <div class="paper-title">Eluder dimension: localise it!</div>
+          <div class="paper-authors">Alireza Bakhtiari, Alex Ayoub, Samuel Robertson, David Janz, Csaba Szepesvari</div>
+          <div class="paper-meta">We, Dec 3, 16:30 PST — Poster Session 2</div>
+        </li>
+        <li>
+          <div class="paper-title">Bandit and Delayed Feedback in Online Structured Prediction</div>
+          <div class="paper-authors">Yuki Shibukawa, Taira Tsuchiya, Shinsaku Sakaue, Kenji Yamanishi</div>
+          <div class="paper-meta">We, Dec 3, 16:30 PST — Poster Session 2</div>
+        </li>
+        <li>
+          <div class="paper-title">Tackling Biased Evaluators in Dueling Bandits</div>
+          <div class="paper-authors">Ming Tang, Yuxuan Zhou, Chao Huang</div>
+          <div class="paper-meta">We, Dec 3, 16:30 PST — Poster Session 2</div>
+        </li>
+        <li>
+          <div class="paper-title">Improved Confidence Regions and Optimal Algorithms for Online and Offline Linear MNL Bandits</div>
+          <div class="paper-authors">Yuxuan Han, Jose Blanchet, Zhengyuan Zhou</div>
+          <div class="paper-meta">We, Dec 3, 16:30 PST — Poster Session 2</div>
+        </li>
+        <li>
+          <div class="paper-title">Variance-Aware Feel-Good Thompson Sampling for Contextual Bandits</div>
+          <div class="paper-authors">Xuheng Li, Quanquan Gu</div>
+          <div class="paper-meta">We, Dec 3, 16:30 PST — Poster Session 2</div>
+        </li>
+        <li>
+          <div class="paper-title">Non-Stationary Bandit Convex Optimization: A Comprehensive Study</div>
+          <div class="paper-authors">Xiaoqi Liu, Dorian Baudry, Julian Zimmert, Patrick Rebeschini, Arya Akhavan</div>
+          <div class="paper-meta">We, Dec 3, 16:30 PST — Poster Session 2</div>
+        </li>
+      </ul>
+    </section>
+
+    <!-- THU – Poster 3 -->
+    <section class="session" id="th-p3">
+      <div class="session-header">
+        <h2>Thursday, Dec 4 – Poster Session 3</h2>
+        <p>11:00 PST · San Diego Poster Session 3</p>
+      </div>
+      <ul class="paper-list">
+        <li>
+          <div class="paper-title">Stable Minima of ReLU Neural Networks Suffer from the Curse of Dimensionality: The Neural Shattering Phenomenon</div>
+          <div class="paper-authors">Tongtong Liang, Dan Qiao, Yu-Xiang Wang, Rahul Parhi</div>
+          <div class="paper-meta">Th, Dec 4, 11:00 PST — Poster Session 3</div>
+        </li>
+        <li>
+          <div class="paper-title">Optimal Dynamic Regret by Transformers for Non-Stationary Reinforcement Learning</div>
+          <div class="paper-authors">Baiyuan Chen, Shinji Ito, Masaaki Imaizumi</div>
+          <div class="paper-meta">Th, Dec 4, 11:00 PST — Poster Session 3</div>
+        </li>
+        <li>
+          <div class="paper-title">Beyond Least Squares: Uniform Approximation and the Hidden Cost of Misspecification</div>
+          <div class="paper-authors">Davide Maran, Csaba Szepesvari</div>
+          <div class="paper-meta">Th, Dec 4, 11:00 PST — Poster Session 3</div>
+        </li>
+        <li>
+          <div class="paper-title">Regret Bounds for Adversarial Contextual Bandits with General Function Approximation and Delayed Feedback</div>
+          <div class="paper-authors">Orin Levy, Liad Erez, Alon Peled-Cohen, Yishay Mansour</div>
+          <div class="paper-meta">Th, Dec 4, 11:00 PST — Poster Session 3</div>
+        </li>
+        <li>
+          <div class="paper-title">Non-Uniform Multiclass Learning with Bandit Feedback</div>
+          <div class="paper-authors">Steve Hanneke, Amirreza Shaeiri, Hongao Wang</div>
+          <div class="paper-meta">Th, Dec 4, 11:00 PST — Poster Session 3</div>
+        </li>
+        <li>
+          <div class="paper-title">Constrained Feedback Learning for Non-Stationary Multi-Armed Bandits</div>
+          <div class="paper-authors">Shaoang Li, Jian Li</div>
+          <div class="paper-meta">Th, Dec 4, 11:00 PST — Poster Session 3</div>
+        </li>
+        <li>
+          <div class="paper-title">Online Portfolio Selection with ML Predictions</div>
+          <div class="paper-authors">Ziliang Zhang, Tianming Zhao, Albert Zomaya</div>
+          <div class="paper-meta">Th, Dec 4, 11:00 PST — Poster Session 3</div>
+        </li>
+        <li>
+          <div class="paper-title">Sharp Analysis for KL-Regularized Contextual Bandits and RLHF</div>
+          <div class="paper-authors">Heyang Zhao, Chenlu Ye, Quanquan Gu, Tong Zhang</div>
+          <div class="paper-meta">Th, Dec 4, 11:00 PST — Poster Session 3</div>
+        </li>
+      </ul>
+    </section>
+
+    <!-- THU – Poster 4 -->
+    <section class="session" id="th-p4">
+      <div class="session-header">
+        <h2>Thursday, Dec 4 – Poster Session 4</h2>
+        <p>16:30 PST · San Diego Poster Session 4</p>
+      </div>
+      <ul class="paper-list">
+        <li>
+          <div class="paper-title">On the Universal Near Optimality of Hedge in Combinatorial Settings</div>
+          <div class="paper-authors">Zhiyuan Fan, Arnab Maiti, Lillian Ratliff, Kevin Jamieson, Gabriele Farina</div>
+          <div class="paper-meta">Th, Dec 4, 16:30 PST — Poster Session 4</div>
+        </li>
+        <li>
+          <div class="paper-title">Can We Infer Confidential Properties of Training Data from LLMs?</div>
+          <div class="paper-authors">Pengrun Huang, Chhavi Yadav, Kamalika Chaudhuri, Ruihan Wu</div>
+          <div class="paper-meta">Th, Dec 4, 16:30 PST — Poster Session 4</div>
+        </li>
+        <li>
+          <div class="paper-title">Revisiting Follow-the-Perturbed-Leader with Unbounded Perturbations in Bandit Problems</div>
+          <div class="paper-authors">Jongyeong Lee, Junya Honda, Shinji Ito, Min-hwan Oh</div>
+          <div class="paper-meta">Th, Dec 4, 16:30 PST — Poster Session 4</div>
+        </li>
+        <li>
+          <div class="paper-title">Simultaneous Swap Regret Minimization via KL-Calibration</div>
+          <div class="paper-authors">Haipeng Luo, Spandan Senapati, Vatsal Sharan</div>
+          <div class="paper-meta">Th, Dec 4, 16:30 PST — Poster Session 4</div>
+        </li>
+        <li>
+          <div class="paper-title">From Average-Iterate to Last-Iterate Convergence in Games: A Reduction and Its Applications</div>
+          <div class="paper-authors">Yang Cai, Haipeng Luo, Chen-Yu Wei, Weiqiang Zheng</div>
+          <div class="paper-meta">Th, Dec 4, 16:30 PST — Poster Session 4</div>
+        </li>
+        <li>
+          <div class="paper-title">Comparator-Adaptive Φ-Regret: Improved Bounds, Simpler Algorithms, and Applications to Games</div>
+          <div class="paper-authors">Soumita Hait, Ping Li, Haipeng Luo, Mengxiao Zhang</div>
+          <div class="paper-meta">Th, Dec 4, 16:30 PST — Poster Session 4</div>
+        </li>
+        <li>
+          <div class="paper-title">Preference-based Reinforcement Learning beyond Pairwise Comparisons: Benefits of Multiple Options</div>
+          <div class="paper-authors">Joongkyu Lee, Seouh-won Yi, Min-hwan Oh</div>
+          <div class="paper-meta">Th, Dec 4, 16:30 PST — Poster Session 4</div>
+        </li>
+        <li>
+          <div class="paper-title">An Improved Algorithm for Adversarial Linear Contextual Bandits via Reduction</div>
+          <div class="paper-authors">Tim van Erven, Jack Mayo, Julia Olkhovskaya, Chen-Yu Wei</div>
+          <div class="paper-meta">Th, Dec 4, 16:30 PST — Poster Session 4</div>
+        </li>
+        <li>
+          <div class="paper-title">Constrained Best Arm Identification</div>
+          <div class="paper-authors">Tyron Lardy, Christina Katsimerou, Wouter Koolen</div>
+          <div class="paper-meta">Th, Dec 4, 16:30 PST — Poster Session 4</div>
+        </li>
+      </ul>
+    </section>
+
+    <!-- FRI – Poster 5 -->
+    <section class="session" id="fr-p5">
+      <div class="session-header">
+        <h2>Friday, Dec 5 – Poster Session 5</h2>
+        <p>11:00 PST · San Diego Poster Session 5</p>
+      </div>
+      <ul class="paper-list">
+        <li>
+          <div class="paper-title">Adapting to Stochastic and Adversarial Losses in Episodic MDPs with Aggregate Bandit Feedback</div>
+          <div class="paper-authors">Shinji Ito, Kevin Jamieson, Haipeng Luo, Arnab Maiti, Taira Tsuchiya</div>
+          <div class="paper-meta">Fr, Dec 5, 11:00 PST — Poster Session 5</div>
+        </li>
+        <li>
+          <div class="paper-title">AdaSTaR: Adaptive Data Sampling for Training Self-Taught Reasoners</div>
+          <div class="paper-authors">
+            Reiss Koh, Wonbeen Oh, Jaein Jang, MinHyung Lee, Hyeongjin Kim, Ah Kim,
+            Joonkee Kim, Junghyun Lee, Taehyeon Kim, Se-Young Yun
+          </div>
+          <div class="paper-meta">Fr, Dec 5, 11:00 PST — Poster Session 5</div>
+        </li>
+        <li>
+          <div class="paper-title">Online Inverse Linear Optimization: Efficient Logarithmic-Regret Algorithm, Robustness to Suboptimality, and Lower Bound</div>
+          <div class="paper-authors">Shinsaku Sakaue, Taira Tsuchiya, Han Bao, Taihei Oki</div>
+          <div class="paper-meta">Fr, Dec 5, 11:00 PST — Poster Session 5</div>
+        </li>
+        <li>
+          <div class="paper-title">Provably Efficient Online RLHF with One-Pass Reward Modeling</div>
+          <div class="paper-authors">Long-Fei Li, Yu-Yang Qian, Peng Zhao, Zhi-Hua Zhou</div>
+          <div class="paper-meta">Fr, Dec 5, 11:00 PST — Poster Session 5</div>
+        </li>
+        <li>
+          <div class="paper-title">Learning Across the Gap: Hybrid Multi-armed Bandits with Heterogeneous Offline and Online Data</div>
+          <div class="paper-authors">Qijia He, Minghan Wang, Xutong Liu, Zhiyong Wang, Fang Kong</div>
+          <div class="paper-meta">Fr, Dec 5, 11:00 PST — Poster Session 5</div>
+        </li>
+        <li>
+          <div class="paper-title">Diffusion Models Meet Contextual Bandits</div>
+          <div class="paper-authors">Imad Aouali</div>
+          <div class="paper-meta">Fr, Dec 5, 11:00 PST — Poster Session 5</div>
+        </li>
+        <li>
+          <div class="paper-title">Optimal Estimation of the Best Mean in Multi-Armed Bandits</div>
+          <div class="paper-authors">Takayuki Osogami, Junya Honda, Junpei Komiyama</div>
+          <div class="paper-meta">Fr, Dec 5, 11:00 PST — Poster Session 5</div>
+        </li>
+        <li>
+          <div class="paper-title">Non-Stationary Lipschitz Bandits</div>
+          <div class="paper-authors">Nicolas Nguyen, Solenne Gaucher, Claire Vernade</div>
+          <div class="paper-meta">Fr, Dec 5, 11:00 PST — Poster Session 5</div>
+        </li>
+      </ul>
+    </section>
+
+    <!-- FRI – Poster 6 -->
+    <section class="session" id="fr-p6">
+      <div class="session-header">
+        <h2>Friday, Dec 5 – Poster Session 6</h2>
+        <p>16:30 PST · San Diego Poster Session 6</p>
+      </div>
+      <ul class="paper-list">
+        <li>
+          <div class="paper-title">Improved Regret Bounds for Linear Bandits with Heavy-Tailed Rewards</div>
+          <div class="paper-authors">Artin Tajdini, Jonathan Scarlett, Kevin Jamieson</div>
+          <div class="paper-meta">Fr, Dec 5, 16:30 PST — Poster Session 6</div>
+        </li>
+        <li>
+          <div class="paper-title">Purifying Approximate Differential Privacy with Randomized Post-processing</div>
+          <div class="paper-authors">Yingyu Lin, Erchi Wang, Yian Ma, Yu-Xiang Wang</div>
+          <div class="paper-meta">Fr, Dec 5, 16:30 PST — Poster Session 6</div>
+        </li>
+        <li>
+          <div class="paper-title">REINFORCE Converges to Optimal Policies with Any Learning Rate</div>
+          <div class="paper-authors">Samuel Robertson, Thang Chu, Bo Dai, Dale Schuurmans, Csaba Szepesvari, Jincheng Mei</div>
+          <div class="paper-meta">Fr, Dec 5, 16:30 PST — Poster Session 6</div>
+        </li>
+        <li>
+          <div class="paper-title">Improved Regret and Contextual Linear Extension for Pandora's Box and Prophet Inequality</div>
+          <div class="paper-authors">Junyan Liu, Ziyun Chen, Kun Wang, Haipeng Luo, Lillian Ratliff</div>
+          <div class="paper-meta">Fr, Dec 5, 16:30 PST — Poster Session 6</div>
+        </li>
+        <li>
+          <div class="paper-title">Infrequent Exploration in Linear Bandits</div>
+          <div class="paper-authors">Harin Lee, Min-hwan Oh</div>
+          <div class="paper-meta">Fr, Dec 5, 16:30 PST — Poster Session 6</div>
+        </li>
+        <li>
+          <div class="paper-title">SPiDR: A Simple Approach for Zero-Shot Safety in Sim-to-Real Transfer</div>
+          <div class="paper-authors">
+            Yarden As, Chengrui (Ray) Qu, Benjamin Unger, Dong Ho Kang, Max van der Hart,
+            Laixi Shi, Stelian Coros, Adam Wierman, Andreas Krause
+          </div>
+          <div class="paper-meta">Fr, Dec 5, 16:30 PST — Poster Session 6</div>
+        </li>
+        <li>
+          <div class="paper-title">DISCOVER: Automated Curricula for Sparse-Reward Reinforcement Learning</div>
+          <div class="paper-authors">Leander Diaz-Bone, Marco Bagatella, Jonas Hübotter, Andreas Krause</div>
+          <div class="paper-meta">Fr, Dec 5, 16:30 PST — Poster Session 6</div>
+        </li>
+        <li>
+          <div class="paper-title">Outcome-Based Online Reinforcement Learning: Algorithms and Fundamental Limits</div>
+          <div class="paper-authors">Fan Chen, Zeyu Jia, Alexander Rakhlin, Tengyang Xie</div>
+          <div class="paper-meta">Fr, Dec 5, 16:30 PST — Poster Session 6</div>
+        </li>
+        <li>
+          <div class="paper-title">Trajectory Bellman Residual Minimization: A Simple Value-Based Method for LLM Reasoning</div>
+          <div class="paper-authors">Yurun Yuan, Fan Chen, Zeyu Jia, Alexander Rakhlin, Tengyang Xie</div>
+          <div class="paper-meta">Fr, Dec 5, 16:30 PST — Poster Session 6</div>
+        </li>
+        <li>
+          <div class="paper-title">Dynamic Regret Reduces to Kernelized Static Regret</div>
+          <div class="paper-authors">Andrew Jacobsen, Alessandro Rudi, Francesco Orabona, Nicolò Cesa-Bianchi</div>
+          <div class="paper-meta">Fr, Dec 5, 16:30 PST — Poster Session 6</div>
+        </li>
+      </ul>
+    </section>
+  </div>
+
+  <script>
+    // Simple tab logic: show only clicked session
+    const tabs = document.querySelectorAll('.session-tab');
+    const sessions = document.querySelectorAll('.session');
+
+    tabs.forEach(tab => {
+      tab.addEventListener('click', () => {
+        const targetId = tab.getAttribute('data-target');
+
+        tabs.forEach(t => t.classList.remove('active'));
+        sessions.forEach(s => s.classList.remove('active'));
+
+        tab.classList.add('active');
+        const targetSession = document.getElementById(targetId);
+        if (targetSession) {
+          targetSession.classList.add('active');
+          // scroll back to top of container for phone use
+          targetSession.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }
+      });
+    });
+  </script>
+</body>
+</html>
